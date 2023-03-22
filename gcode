@@ -1,6 +1,5 @@
 ; Ender 3 Custom Start G-code
 M140 S{material_bed_temperature_layer_0} ; Set Heat Bed temperature
-M190 S{material_bed_temperature_layer_0} ; Wait for Heat Bed temperature
 M104 S160; start warming extruder to 160
 G28 ; Home all axes
 G29 ; Auto bed-level (BL-Touch)
